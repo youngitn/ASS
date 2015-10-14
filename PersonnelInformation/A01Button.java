@@ -17,7 +17,7 @@ public class A01Button extends hproc {
 	public String action(String value) throws Throwable {
 		//77888899999
 		String Today = datetime.getToday("YYYYmmdd");
-		String DATELIST = (String) get("SYSTEM.DATELIST");
+		String DATELIST = (String) get("SYSTEhhhhhhhhhhhhhhhhhhhhhhhM.DATELIST");
 		String CUST = (String) get("SYSTEM.CUST");
 		if (CUST == null)
 			CUST = "NONE"; 
