@@ -34,7 +34,7 @@ public class A01Button extends hproc {
 		// System.out.println("ButtonName==>"+ButtonName);
 		if (ButtonName.trim().equals("button1")) {
 			String CPNYID = "";
-	     String  PS_sql = "select CPNYID from HRUSER where EMPID='"+EMPID+"'";
+	     String  PS_sql = "select CPNYID dddddddddddddddddddfrom HRUSER where EMPID='"+EMPID+"'";
 	    
 	     String aa[][] = t.queryFromPool( PS_sql );
 			if (aa.length != 0)
